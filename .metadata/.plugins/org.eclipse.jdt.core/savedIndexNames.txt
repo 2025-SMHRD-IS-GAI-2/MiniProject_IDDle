@@ -1,4 +1,0 @@
-INDEX VERSION 1.134+C:\Users\smhrd\Desktop\MiniProject\.metadata\.plugins\org.eclipse.jdt.core
-866119480.index
-499960657.index
-1865797976.index
