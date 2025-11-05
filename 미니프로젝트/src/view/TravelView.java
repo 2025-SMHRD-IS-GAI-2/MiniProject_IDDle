@@ -39,7 +39,6 @@ public class TravelView {
 
             if (theme.equals("집에서 쉬기")) {
                 System.out.println("\n--- 랜덤 여행 결과 ---");
-                System.out.println("이동수단: " + transport);
                 System.out.println("성향: P (즉흥형)");
                 System.out.println("테마: " + theme);
                 System.out.println("집 밖은 위험… 오늘은 집콕 모드로!");
