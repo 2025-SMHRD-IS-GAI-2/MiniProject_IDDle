@@ -13,7 +13,7 @@ public class Main {
 
         UserVO user = userView.start();  
         // 난 이서야 이서 
-
+        // 두번째 이서
         travelView.showTravelPlanner(user);  
         // 난 지유야
     }
