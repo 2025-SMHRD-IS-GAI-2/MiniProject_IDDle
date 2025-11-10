@@ -14,6 +14,6 @@ public class Main {
         UserVO user = userView.start();  
 
         travelView.showTravelPlanner(user);  
-        // 난 지유야
+        // 난 지유야 지유지유
     }
 }
