@@ -12,6 +12,7 @@ public class Main {
         TravelView travelView = new TravelView();
 
         UserVO user = userView.start();  
+        // 난 이서야 이서 
 
         travelView.showTravelPlanner(user);  
 
