@@ -84,7 +84,7 @@ public class TravelView {
             }
 
             while (!Arrays.asList(locations).contains(location)) {
-                System.out.print("여행지를 선택하세요 (광주 / 전주 / 경주 / 대구 / 부산): ");
+                System.out.print("여행지를 선택하세요 (광주 / 전주 / 경주 / 대구 / 부산 / 대전): "); //커밋 연습1(대전 추가)
                 location = sc.nextLine().trim();
                 if (!Arrays.asList(locations).contains(location)) {
                     System.out.println(RED + "⚠ 유효한 장소를 입력해주세요." + RESET);
