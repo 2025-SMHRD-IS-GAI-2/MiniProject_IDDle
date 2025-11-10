@@ -15,6 +15,6 @@ public class Main {
         // 난 이서야 이서 
         // 두번째 이서
         travelView.showTravelPlanner(user);  
-        // 난 지유야
+        // 난 지유야 진짜지유
     }
 }
