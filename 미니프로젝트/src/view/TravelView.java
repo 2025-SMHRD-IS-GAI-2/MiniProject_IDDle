@@ -50,10 +50,8 @@ public class TravelView {
 
             if (theme.equals("집에서 쉬기")) {
                 System.out.println("\n--- 랜덤 여행 결과 ---");
-<<<<<<< HEAD
                 System.out.println("이동수단: " + transport);
-=======
->>>>>>> branch 'master' of https://github.com/2025-SMHRD-IS-GAI-2/MiniProject_IDDle.git
+
                 System.out.println("성향: " + GREEN + "P (즉흥형)" + RESET);
                 System.out.println("테마: " + YELLOW + theme + RESET);
                 System.out.println(RED + "집 밖은 위험… 오늘은 집콕 모드로!" + RESET);
