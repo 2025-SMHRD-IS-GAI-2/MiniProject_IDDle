@@ -50,7 +50,10 @@ public class TravelView {
 
             if (theme.equals("집에서 쉬기")) {
                 System.out.println("\n--- 랜덤 여행 결과 ---");
+<<<<<<< HEAD
                 System.out.println("이동수단: " + transport);
+=======
+>>>>>>> branch 'master' of https://github.com/2025-SMHRD-IS-GAI-2/MiniProject_IDDle.git
                 System.out.println("성향: " + GREEN + "P (즉흥형)" + RESET);
                 System.out.println("테마: " + YELLOW + theme + RESET);
                 System.out.println(RED + "집 밖은 위험… 오늘은 집콕 모드로!" + RESET);
@@ -59,7 +62,7 @@ public class TravelView {
 
             location = locations[rd.nextInt(locations.length)];
 
-            System.out.println("\n--- 랜덤 여행 결과 ---");
+            System.out.println("\n--- 여행 결과 ---");
             System.out.println("이동수단: " + transport);
             System.out.println("성향: " + GREEN + "P (즉흥형)" + RESET);
             System.out.println("테마: " + YELLOW + theme + RESET);
@@ -126,20 +129,18 @@ public class TravelView {
         }
     }
 
-    // 🗺️ 지도 출력 + 핀 색상 표시
+        // 핀 색상 강조
     private void printMapWithPin(String selectedCity) {
         System.out.println("\n==========================================");
-        System.out.println("🗺️ " + BOLD + "여행지 위치 보기 (컬러 지도 + 📍핀)" + RESET);
+        System.out.println("🗺️ " + BOLD + "여행지 위치 보기" + RESET);
         System.out.println("==========================================\n");
 
-        // 도시별 색상 매핑
         String g = GREEN + "광주 🎨" + RESET;
         String jn = YELLOW + "전주 🍲" + RESET;
         String gj = BLUE + "경주 🏯" + RESET;
         String dg = MAGENTA + "대구 🌆" + RESET;
         String bs = CYAN + "부산 🌊" + RESET;
 
-        // 핀 색상 강조
         String pin = RED + "📍" + RESET;
 
         System.out.println("          " + (selectedCity.equals("경주") ? pin : "  ") + " " + gj);
