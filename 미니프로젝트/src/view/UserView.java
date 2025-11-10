@@ -14,7 +14,7 @@ public class UserView {
 
     public UserVO start() {
         System.out.println("=== ✈ 국내 여행 플래너 로그인 시스템 ===");
-
+        System.out.println("호성 수정");//커밋 연습
         UserVO user = null;
 
         while(user == null) {
